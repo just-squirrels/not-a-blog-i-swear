@@ -1,0 +1,32 @@
+{
+  "name": "@sqrls/not-a-blog-i-swear",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "definitely not a blog why would you even ask",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "test": "echo \"(╯° °）╯︵ ┻━┻\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/just-squirrels/not-a-blog-i-swear.git"
+  },
+  "keywords": [
+    "astro",
+    "sql",
+    "not-a-blog"
+  ],
+  "author": "just squirrels",
+  "license": "MIT",
+  "dependencies": {
+    "@sqrls/mindate": "^0.1.1",
+    "@sqrls/tokens": "^0.1.1",
+    "astro": "^2.0.18",
+    "sequelize": "^6.29.2"
+  }
+}
