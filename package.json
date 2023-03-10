@@ -24,9 +24,21 @@
   "author": "just squirrels",
   "license": "MIT",
   "dependencies": {
+    "@astrojs/node": "^5.1.0",
+    "@astrojs/svelte": "^2.1.0",
+    "@astrojs/tailwind": "^3.1.0",
+    "@prisma/client": "^4.11.0",
     "@sqrls/mindate": "^0.1.1",
     "@sqrls/tokens": "^0.1.1",
-    "astro": "^2.0.18",
-    "sequelize": "^6.29.2"
+    "astro": "^2.1.2",
+    "nanostore": "^1.2.1",
+    "node-redis": "^0.1.7",
+    "pg": "^8.10.0",
+    "pg-hstore": "^2.3.4",
+    "svelte": "^3.56.0",
+    "tailwindcss": "^3.2.7"
+  },
+  "devDependencies": {
+    "prisma": "^4.11.0"
   }
 }

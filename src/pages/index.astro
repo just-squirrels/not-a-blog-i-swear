@@ -1,4 +1,6 @@
 ---
+import { listUsers } from "../db";
+const users = await listUsers();
 ---
 
 <html lang="en">
@@ -10,6 +12,10 @@
 		<title>Astro</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<h1 class="text-4xl text-slate-800">Astro</h1>
+		<p>{JSON.stringify(users)}</p>
+		{users.map((user) =>
+			<p>{user.alias} ({user.id}): {user.name}</p>
+		)}
 	</body>
 </html>
